@@ -1,0 +1,220 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400&display=swap");
+body {
+  margin: 0;
+  font-family: "Spectral", serif, "Times New Roman", Times;
+}
+
+.section2 {
+  margin-bottom: 50px;
+  padding-left: 100px;
+  padding-right: 100px;
+  min-height: 100vh;
+}
+
+.sect2-top {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+}
+
+.sect2-header {
+  margin: auto;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  font-weight: 700;
+  width: 45%;
+  margin-bottom: 25px;
+  margin-top: 25px;
+}
+
+.listen {
+  color: rgb(198, 113, 255);
+}
+
+.sect2-paragraph {
+  width: 70%;
+  margin: auto;
+}
+
+.sect2-topBtn {
+  border: none;
+  width: 150px;
+  border-radius: 10px;
+  background-color: rgba(198, 113, 255, 0.7);
+  color: white;
+  font-weight: bold;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 2px 2px 10px black;
+  margin: auto;
+  margin-top: 25px;
+  margin-bottom: 50px;
+}
+.sect2-topBtn:hover {
+  background-color: rgb(198, 113, 255);
+  cursor: pointer;
+  transition: ease-in-out 300ms;
+}
+
+.sect2-middle {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+.middle-card {
+  margin-top: 50px;
+  height: 300px;
+  width: 400px;
+  border: 1px solid black;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  text-align: left;
+  align-items: center;
+}
+
+.portait {
+  height: 300px;
+  margin-bottom: 0px;
+}
+
+.card-text {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.card-text1 {
+  font-size: 1.25em;
+  font-weight: 600;
+  margin-top: 0;
+}
+
+.card-text2 {
+  font-size: 1em;
+}
+
+.card-btn {
+  background-color: rgba(0, 0, 0, 0.7);
+  border: none;
+  color: white;
+  height: 30px;
+  width: 125px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 0.8em;
+  letter-spacing: 1px;
+  padding: 15px;
+  margin-bottom: 20px;
+}
+.card-btn:hover {
+  background-color: rgb(0, 0, 0);
+  cursor: pointer;
+  transition: ease-in-out 300ms;
+}
+
+.card-icon {
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+
+.card1 {
+  background-color: rgba(104, 225, 255, 0.4);
+}
+
+.card2 {
+  background-color: rgba(255, 200, 4, 0.7);
+}
+
+.card3 {
+  background-color: rgba(85, 253, 205, 0.993);
+}
+
+.sect2-bottom {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-text1 {
+  font-size: 2.5em;
+  font-weight: 700;
+  letter-spacing: 2px;
+  width: 90%;
+  text-align: left;
+}
+
+.unique {
+  color: rgb(198, 113, 255);
+}
+
+.bottom-list {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 0;
+  text-align: left;
+}
+
+.bottom-list-header {
+  font-size: 1em;
+  font-weight: lighter;
+  letter-spacing: 1px;
+  text-align: left;
+}
+
+.bottom-list-item {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+  letter-spacing: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.list-icon {
+  color: rgb(198, 113, 255);
+  font-size: 1.25em;
+  margin-right: 15px;
+}
+
+.list-image {
+  height: 300px;
+  background-color: rgba(198, 113, 255, 0.7);
+  border-radius: 15px;
+  padding-top: 25px;
+  padding-left: 25px;
+}
+
+@media (max-width: 950px) {
+  .sect2-header {
+    width: 80vw;
+  }
+  .sect2-middle {
+    display: flex;
+    flex-direction: column;
+  }
+  .sect2-bottom {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+  }
+  .bottom-text1 {
+    text-align: center;
+    margin: auto;
+  }
+  .bottom-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}

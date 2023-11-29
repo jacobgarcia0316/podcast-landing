@@ -1,0 +1,272 @@
+@import url("https://fonts.googleapis.com/css2?family=Spectral:wght@200;300;400&display=swap");
+body {
+  margin: 0;
+  font-family: "Spectral", serif, "Times New Roman", Times;
+}
+
+.section1 {
+  background-color: rgba(198, 113, 255, 0.2);
+  padding-bottom: 50px;
+  min-height: 100vh;
+}
+
+.navbar {
+  display: flex;
+  max-width: 100vw;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+  height: 100px;
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.soundwave {
+  min-width: 350px;
+  height: 75px;
+  margin-left: 50px;
+}
+
+.icon-text {
+  font-weight: 400;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.podcast-icon {
+  color: rgb(198, 113, 255);
+  font-size: 2em;
+  margin-right: 5px;
+}
+
+.nav-icon {
+  display: flex;
+  align-items: center;
+  margin-right: 50px;
+}
+
+.nav-item {
+  list-style: none;
+  min-width: 100px;
+  min-width: -moz-fit-content;
+  min-width: fit-content;
+  margin-right: 15px;
+}
+.nav-item:hover {
+  color: rgb(198, 113, 255);
+  cursor: pointer;
+  transition: ease-in-out 200ms;
+}
+
+#section1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+}
+
+.main-top {
+  width: 40%;
+  padding: 0px 50px;
+}
+
+.main-text1 {
+  margin-top: 50px;
+  color: rgb(198, 113, 255);
+  font-weight: 700;
+  font-size: 1.5em;
+  letter-spacing: 1px;
+}
+
+.main-text2 {
+  margin-top: 50px;
+  font-size: 2.5em;
+  letter-spacing: 2px;
+  width: 70%;
+}
+
+.podcast-text {
+  color: rgb(198, 113, 255);
+}
+
+.main-text3 {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  font-size: 1em;
+}
+
+.main-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+.main-button1 {
+  border: none;
+  border-radius: 10px;
+  background-color: rgba(198, 113, 255, 0.7);
+  color: white;
+  font-weight: bold;
+  font-size: 0.75em;
+  letter-spacing: 1px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  padding-right: 15px;
+  box-shadow: 2px 2px 10px black;
+}
+.main-button1:hover {
+  background-color: rgb(198, 113, 255);
+  cursor: pointer;
+  transition: ease-in-out 300ms;
+}
+
+.main-button2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  border-radius: 10px;
+  background-color: transparent;
+  color: black;
+  font-size: 0.9em;
+  font-weight: 500;
+  letter-spacing: 1px;
+}
+.main-button2:hover {
+  color: rgb(198, 113, 255);
+  cursor: pointer;
+  transition: ease-in-out 300ms;
+}
+
+.button-icon {
+  color: rgb(198, 113, 255);
+  margin-right: 5px;
+  font-size: 1.5em;
+}
+
+.images {
+  width: 60%;
+}
+
+.image1-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image1 {
+  height: 250px;
+  border-radius: 25px;
+  z-index: 1000;
+}
+.image1:hover ~ .image1-bg {
+  rotate: 0deg;
+  transition: ease-in-out 250ms;
+}
+
+.image1-bg {
+  rotate: 10deg;
+  height: 250px;
+  width: 390px;
+  background-color: rgb(198, 113, 255);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.image2-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 75px;
+}
+
+.image2 {
+  height: 400px;
+  border-radius: 25px;
+  z-index: 1000;
+}
+.image2:hover ~ .image2-bg {
+  rotate: 0deg;
+  transition: 250ms;
+  transition-timing-function: ease-in-out;
+}
+
+.image2-bg {
+  rotate: 10deg;
+  height: 400px;
+  width: 265px;
+  background-color: rgb(198, 113, 255);
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+@media (max-width: 975px) {
+  #section1 {
+    width: 80%;
+    min-height: 100vh;
+    display: grid;
+    grid-template-rows: 2 auto;
+    margin: auto;
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+    width: 96vw;
+    margin: auto;
+    height: 100px;
+    padding: 0;
+  }
+  .nav-icon {
+    margin-left: 25px;
+  }
+  .nav-item {
+    text-align: center;
+  }
+  .soundwave {
+    display: none;
+  }
+  .icon-text {
+    display: none;
+  }
+  .main-top {
+    width: 90%;
+    text-align: center;
+  }
+  .main-text1, .main-text2, .main-text3 {
+    width: 75%;
+    text-align: center;
+    margin: auto;
+  }
+  .main-text1 {
+    font-size: 2em;
+    width: 100vw;
+  }
+  .main-text2 {
+    width: 90%;
+    font-size: 2em;
+    margin: auto;
+  }
+  .main-text3 {
+    margin-bottom: 50px;
+  }
+  .main-buttons {
+    margin-bottom: 75px;
+  }
+  .main-bottom {
+    width: 100%;
+  }
+}
